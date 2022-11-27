@@ -1,0 +1,58 @@
+@import url(/css/component.css);
+@import url(/css/sections/header.css);
+@import url(/css/sections/photoshop.css);
+@import url(/css/sections/blender.css);
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(/font/POPPINS-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    src: url(/font/POPPINS-BOLD.TTF);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    list-style: none;
+}
+
+a {
+    color: #000;
+}
+
+body {
+    font-family: "Poppins Regular";
+    scroll-behavior: smooth;
+    background-color: #1E1E1E;
+}
+
+
+/* .navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title {
+    font-size: 2.5vw;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    list-style: none;
+    gap: 1vw;
+} */
+

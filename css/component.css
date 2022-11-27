@@ -1,0 +1,45 @@
+.component {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #d38a1d;
+    color: white;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.component:hover {
+    background-color: #886228;
+    color: white;
+}
+
+.component-scale {
+    transition: 0.2s;
+}
+
+.component-scale:hover {
+    transform: scale(1.1,1.1);
+}
+
+.component-red {
+    color: white;
+    background-color: red;
+}
+
+.component-red:hover {
+    background-color: rgb(114, 0, 0);
+    color: white;
+}
+
+.component-yellow {
+    color: white;
+    background-color: purple;
+}
+
+.component-yellow:hover {
+    background-color: rgb(44, 0, 44);
+    color: white;
+}

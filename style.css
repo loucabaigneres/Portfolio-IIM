@@ -1,7 +1,7 @@
-@import url(/css/component.css);
-@import url(/css/sections/header.css);
-@import url(/css/sections/photoshop.css);
-@import url(/css/sections/blender.css);
+@import url(./css/component.css);
+@import url(./css/sections/header.css);
+@import url(./css/sections/photoshop.css);
+@import url(./css/sections/blender.css);
 
 @font-face {
     font-family: "Poppins Regular";

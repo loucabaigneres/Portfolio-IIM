@@ -24,7 +24,8 @@ header{
 .navbar .louca {
     padding-left: 50px;
     font-size: 2em;
-    font-family: "Poppins Bold";
+    font-family: "Poppins";
+    font-weight: 600;
     border-right: .15em solid #ffa600;
 
     /* animation-name: louca;
@@ -184,12 +185,13 @@ li:hover .underline {
     padding-top: 125px;
     padding-left: 50px;
     font-size: 4em;
+    font-family: "Poppins";
+    font-weight: 600;
     z-index: 10;
 }
 
 .intro span {
     animation: couleur 1.5s linear 0s infinite ;
-    z-index: 10;
 }
 
 @keyframes couleur {
@@ -204,22 +206,6 @@ li:hover .underline {
     100% {
         color: white
     }
-}
-
-p > span:nth-child(1) {
-    animation-delay: 0s;
-}
-
-p > span:nth-child(2) {
-    animation-delay: 0.1s;
-}
-
-p > span:nth-child(3) {
-    animation-delay: 0.2s;
-}
-
-p > span:nth-child(4) {
-    animation-delay: 0.3s;
 }
 
 

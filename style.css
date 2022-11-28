@@ -3,16 +3,7 @@
 @import url(./css/sections/photoshop.css);
 @import url(./css/sections/blender.css);
 
-@font-face {
-    font-family: "Poppins Regular";
-    src: url(/font/POPPINS-REGULAR.TTF);
-}
-
-@font-face {
-    font-family: "Poppins Bold";
-    src: url(/font/POPPINS-BOLD.TTF);
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 
 *{
@@ -28,7 +19,7 @@ a {
 }
 
 body {
-    font-family: "Poppins Regular";
+    font-family: "Poppins";
     scroll-behavior: smooth;
     background-color: #1E1E1E;
 }
